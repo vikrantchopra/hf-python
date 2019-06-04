@@ -1,0 +1,22 @@
+{% extends 'base.html' %} 
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+
+
+<div class="viewgrid">
+  {% for row_title in the_row_titles %}
+  <h4 class="headers">{{ row_title }}</h4>
+  {% endfor %}
+
+  {% for log_row in the_data %}
+    {% for item in log_row %}
+      <span class="headers">{{item}}</span>
+    {% endfor %}
+  {% endfor %}
+
+</div>
+
+{% endblock %}

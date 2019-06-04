@@ -1,0 +1,5 @@
+ImmutableMultiDict([('phrase', 'the life, the universe and beyond'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3804.0 Safari/537.36|{'e', 'u', 'i', 'o', 'a'}
+ImmutableMultiDict([('phrase', 'hitch-hikers guide to galaxy also'), ('letters', 'hrg')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36|{'g', 'r', 'h'}
+ImmutableMultiDict([('phrase', 'galaxy'), ('letters', 'xyz')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36|{'x', 'y'}
+ImmutableMultiDict([('phrase', 'The Treasure Island'), ('letters', 'taeion')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3813.0 Safari/537.36|{'a', 'n', 'e'}
+ImmutableMultiDict([('phrase', 'The Big Bang Theory'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3813.0 Safari/537.36|{'e', 'i', 'a', 'o'}

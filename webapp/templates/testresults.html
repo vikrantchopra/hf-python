@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2 class="title">{{ the_title }}</h2>
+
+<p>You submitted the following data:</p>
+
+<table>
+    <tr><td>Phrase:</td><td>The life, the universe and all</td></tr>
+    <tr><td>Letters:</td><td>aeiou</td></tr>
+</table>
+
+<p>When The life, the universe and all is searched for aeiou, the following results are returned:</p>
+<h3>{aeiu}</h3>
+
+<h2 class="title">{{ the_title }}</h2>
+<div class="resultGrid">
+    <h3>You submitted the following data:</h3>
+    <label>Phrase: </label> <span class="result">The life, the universe and all</span>
+    <label>Letters: </label> <span class="result">aeiou<span>
+</div>
+<p class="title">When "{{the_phrase}}" is searched for "{{ the_letters }}", the following results are returned:</p>
+<h3 class="title">{{the_results}}</h3>
+
+{% endblock %}

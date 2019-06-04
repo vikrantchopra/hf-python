@@ -1,0 +1,16 @@
+{% extends 'base.html' %} 
+
+{% block body %}
+
+<h2 class="title">{{ the_title }}</h2>
+<form class="myForm" method="POST" action="/search4">
+  <h3 class="heading">Use this form to submit a search request:</h3>
+  <label for="phrase">Phrase: </label>
+  <input type="text" name="phrase" id="phrase" required />
+  <label for="letters">Letters: </label>
+  <input type="text" name="letters" id="letters" />
+
+  <button>Do it!</button>
+</form>
+
+{% endblock %}
